@@ -1,4 +1,4 @@
-const app = require('./app')
+const app = require('./app.js')
 const colors = require('colors')
 
 const server = app.listen(app.get('port'), ()=>{
