@@ -26,7 +26,7 @@ const Chat = (props)=>{
     const [mensajes, setMensajes] = useState([Default])
     const [users, setUsers] = useState()
     const messagesEndRef = useRef(null)
-    let client = io("https://tunkay-chat.herokuapp.com/") 
+    let client = io("https://cloudsendv1.herokuapp.com/") 
 
     const scrollToBottom = () => {
         messagesEndRef.current?.scrollIntoView({ behavior: "smooth" })
