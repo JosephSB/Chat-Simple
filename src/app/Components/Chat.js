@@ -7,7 +7,7 @@ import SMS from './sms'
 const Default = {
     id: "0",
     User: "ADMIN",
-    message: "Bienvenido a Tunkay.SMS",
+    message: "Bienvenido a Cloudsend",
     hour: "",
     person: "other"
 }

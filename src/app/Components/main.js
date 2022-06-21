@@ -26,7 +26,8 @@ const Main = (props)=>{
 
     return(
         <div className="main CENTER column">
-            <h1>TUNKAY.SMS</h1>
+            <img src="/assets/Logo.png" width={200}/>
+            <h1>CLOUDSEND</h1>
             {props.modo == "MAIN" && 
                 <>
                     <input
