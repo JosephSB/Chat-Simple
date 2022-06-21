@@ -1,5 +1,6 @@
 const app = require('./app.js')
-const colors = require('colors')
+//const colors = require('colors')
+
 
 const server = app.listen(app.get('port'), ()=>{
     console.log('server on port: ',app.get('port'))
@@ -23,7 +24,7 @@ function getRooms(io,sala) {
 
 io.on('connection',(client) =>{
     client.on('new User', (data)=>{
-        console.log(colors.green("Un nuevo usuario se conecto: ", data.user))
+        //console.log(colors.green("Un nuevo usuario se conecto: ", data.user))
 
         /*--------GUARDAR DATOS EN EL SOCKET-------*/
         client.data.username = data.user
